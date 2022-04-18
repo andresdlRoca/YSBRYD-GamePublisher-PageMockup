@@ -1,0 +1,40 @@
+$tiles-font: "Times New Roman", Serif;
+
+.frontpage {
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 92%;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.frontpagetiles {
+    font-family: $tiles-font;
+    font-size: 3.5vw;
+    font-weight: 300;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+
+#tile1 {
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+#tile2 {
+    margin-left: 12.5%;
+    margin-top: 15%;
+
+}
+
+#tile3 {
+    margin-left: 13%;
+    margin-top: 25%;
+}

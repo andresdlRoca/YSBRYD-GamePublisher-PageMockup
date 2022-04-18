@@ -1,11 +1,12 @@
 {
-  "name": "reactScratch",
+  "name": "proyecto1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "scss": "node-sass --watch ./src/components/scss -o ./src/components"
   },
   "keywords": [],
   "author": "",

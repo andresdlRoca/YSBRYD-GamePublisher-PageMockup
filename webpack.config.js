@@ -7,7 +7,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "bundle_sin_babel"),
+    path: path.resolve(__dirname, "bundle"),
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -37,7 +37,7 @@ module.exports = {
         test: /\.(png|jpe?g|gif|mp4)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: 'images',
+          outputPath: 'media',
         },
       },
     ],
