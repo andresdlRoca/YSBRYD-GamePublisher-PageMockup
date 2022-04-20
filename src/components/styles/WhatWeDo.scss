@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../../assets/fonts/BebasNeue-webfont.woff);
+}
+
+$generalfont: "Bebas Neue";
+
+.WWD {
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    right: 0;
+    top: 100%;
+    
+    height: 100%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    .subtitleWWD {
+        font-family: $generalfont;
+        color: rgb(248, 181, 59);
+        position: relative;
+        margin-top: 3%;
+        padding-bottom: 2%;
+        left: 15%;
+        font-size: 35px;
+        text-align: center;
+        width: 70%;
+    }
+
+    .features {
+        //background-color: rgba(0, 0, 0, 0.044);
+        width: 70%;
+        height: 60%;
+        left: 15%;
+        position: relative;
+        //padding-bottom: 20%;
+        
+        .moneythumb, .polishthumb, .visibilitythumb {
+            filter: invert(1);
+        }
+
+        .funding {
+            vertical-align: top;
+            position: relative;
+            display: inline-block;
+            width: 33.33%;
+            height: 50%;
+            //background-color: rgba(234, 255, 0, 0.193);
+
+            .moneythumb {
+                position: relative;
+                margin-top: 15%;
+                left: 23%;
+                width: 50%;
+                height: 50%;
+                margin-bottom: 5.5%;
+            }
+
+        }
+        
+        .polish {
+            vertical-align: top;
+            position: relative;
+            display: inline-block;
+            width: 33.33%;
+            height: 45%;
+            //background-color: rgba(0, 0, 255, 0.089);
+
+            .polishthumb {
+                position: relative;
+                margin-top: 10%;
+                left: 24%;
+                width: 45%;
+                height: 45%;
+
+            }
+        }
+        
+        .visibility {
+            vertical-align: top;
+            position: relative;
+            display: inline-block;
+            width: 33.33%;
+            height: 50%;
+            //background-color: rgba(255, 0, 0, 0.137);
+
+            .visibilitythumb {
+                position: relative;
+                margin-top: 10%;
+                left: 26%;
+                width: 45%;
+                height: 45%;
+
+            }
+        }
+
+        .featThumb {
+            margin-top: 5%;
+            left: 20%;
+            padding-bottom: 5%;
+            display: inline-block;
+            position: relative;
+            width: 65%;
+            background: rgb(243, 188, 50);
+            border-radius: 2%;
+
+
+        }
+        
+        .featThumb::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 38%;
+            width: 1%;
+            border-top: 20px solid rgb(243, 188, 50);
+            border-top-color: rgb(243, 188, 50);
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+        }
+
+        .featTitle {
+            font-family: $generalfont;
+            position: relative;
+            margin-top: 8%;
+            left: 16%;
+            font-size: 20px;
+            text-align: center;
+            width: 70%;
+        }
+
+        .featDesc {
+            position: relative;
+            font-family: "Arial";
+            font-size: 13px;
+            font-weight: 500;
+            text-align: center;
+            word-wrap: break-word;
+            left: 12%;
+            width: 80%;
+        }
+
+
+    }
+}
+
+

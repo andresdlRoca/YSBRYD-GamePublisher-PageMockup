@@ -1,4 +1,21 @@
 body {
-  background-color: black;
+  background-color: grey;
+}
+
+.page-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+::-moz-selection {
+  color: white;
+  background: #f3bc32;
+}
+
+::selection {
+  color: white;
+  background: #f3bc32;
 }
 /*# sourceMappingURL=index.css.map */

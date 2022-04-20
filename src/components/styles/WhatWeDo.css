@@ -1,1 +1,133 @@
-/* No CSS *//*# sourceMappingURL=WhatWeDo.css.map */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../../assets/fonts/BebasNeue-webfont.woff);
+}
+
+.WWD {
+  position: relative;
+  background-color: #f1f1f1;
+  right: 0;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.WWD .subtitleWWD {
+  font-family: "Bebas Neue";
+  color: #f8b53b;
+  position: relative;
+  margin-top: 3%;
+  padding-bottom: 2%;
+  left: 15%;
+  font-size: 35px;
+  text-align: center;
+  width: 70%;
+}
+
+.WWD .features {
+  width: 70%;
+  height: 60%;
+  left: 15%;
+  position: relative;
+}
+
+.WWD .features .moneythumb, .WWD .features .polishthumb, .WWD .features .visibilitythumb {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.WWD .features .funding {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  height: 50%;
+}
+
+.WWD .features .funding .moneythumb {
+  position: relative;
+  margin-top: 15%;
+  left: 23%;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 5.5%;
+}
+
+.WWD .features .polish {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  height: 45%;
+}
+
+.WWD .features .polish .polishthumb {
+  position: relative;
+  margin-top: 10%;
+  left: 24%;
+  width: 45%;
+  height: 45%;
+}
+
+.WWD .features .visibility {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  height: 50%;
+}
+
+.WWD .features .visibility .visibilitythumb {
+  position: relative;
+  margin-top: 10%;
+  left: 26%;
+  width: 45%;
+  height: 45%;
+}
+
+.WWD .features .featThumb {
+  margin-top: 5%;
+  left: 20%;
+  padding-bottom: 5%;
+  display: inline-block;
+  position: relative;
+  width: 65%;
+  background: #f3bc32;
+  border-radius: 2%;
+}
+
+.WWD .features .featThumb::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 38%;
+  width: 1%;
+  border-top: 20px solid #f3bc32;
+  border-top-color: #f3bc32;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.WWD .features .featTitle {
+  font-family: "Bebas Neue";
+  position: relative;
+  margin-top: 8%;
+  left: 16%;
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.WWD .features .featDesc {
+  position: relative;
+  font-family: "Arial";
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  word-wrap: break-word;
+  left: 12%;
+  width: 80%;
+}
+/*# sourceMappingURL=WhatWeDo.css.map */

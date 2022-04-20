@@ -1,1 +1,103 @@
-/* No CSS *//*# sourceMappingURL=Portfolio.css.map */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../../assets/fonts/BebasNeue-webfont.woff);
+}
+
+.portfolio {
+  position: relative;
+  background-color: #fbfbfb;
+  right: 0;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .TitleLabels {
+  display: block;
+  font-family: "Bebas Neue";
+  font-size: 500%;
+  font-weight: 500;
+  text-align: center;
+  background-color: #f3bc32;
+  color: #fbfbfb;
+  position: relative;
+  left: 42.5%;
+  margin-top: 6.5%;
+  margin-bottom: 3%;
+  width: 18%;
+  padding-block: 0.2%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  word-wrap: break-word;
+}
+
+.portfolio .TitleLabels::before {
+  content: "";
+  position: absolute;
+  left: -1.3%;
+  top: -5%;
+  width: 101%;
+  height: 105%;
+  background-color: #fbfbfb;
+  border: solid orange 3.1px;
+  -webkit-transform: translateZ(-1px);
+          transform: translateZ(-1px);
+}
+
+.portfolio .portfoliosubtitle {
+  position: relative;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  left: 16%;
+  font-size: 23.5px;
+  text-align: center;
+  width: 70%;
+}
+
+.portfolio .platformlist {
+  position: relative;
+  margin-top: 3.5%;
+  margin-left: 19%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .platformlist li {
+  display: block;
+  height: auto;
+  width: auto;
+  position: relative;
+  float: left;
+  margin-inline: 1%;
+  margin-block: 0.8%;
+  font-family: "Bebas Neue";
+  font-size: 16.5px;
+  border: solid 2px;
+  padding-inline: 1%;
+  padding-block: 1%;
+  cursor: pointer;
+}
+
+.portfolio .platformlist li:hover {
+  color: #f3bc32;
+}
+
+.portfolio .gamegrid {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10%;
+}
+/*# sourceMappingURL=Portfolio.css.map */

@@ -1,5 +1,17 @@
-$backgroundcolor: black;
+$backgroundcolor: grey;
 
 body {
     background-color: $backgroundcolor;
+}
+
+.page-wrap {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+::selection {
+    color: white;
+    background: rgb(243, 188, 50);
 }
