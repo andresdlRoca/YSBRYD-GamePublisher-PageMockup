@@ -4,6 +4,8 @@ import Frontpage from './Frontpage.jsx';
 import WhatWeDo from "./WhatWeDo.jsx";
 import Portfolio from "./Portfolio.jsx";
 import WhyYsbryd from "./WhyYsbryd.jsx";
+import News from "./News.jsx";
+import Contact from "./Contact.jsx";
 
 export default function PageWrap() {
 
@@ -14,6 +16,8 @@ export default function PageWrap() {
             <WhatWeDo />
             <Portfolio />
             <WhyYsbryd />
+            <News />
+            <Contact />
         </div>
 
     );

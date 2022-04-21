@@ -41,12 +41,12 @@ $titlelabels-font: "Bebas Neue";
     .TitleLabels::before {
         content: "";
         position: absolute;
-        left: -1.3%;
-        top: -5%;
-        width: 101%;
-        height: 105%;
+        left: -2.5%;
+        top: -8%;
+        width: 102.5%;
+        height: 108%;
         background-color: rgb(251, 251, 251);
-        border: solid orange 3.1px;
+        border: solid orange 3.8px;
         transform: translateZ(-1px);
     }
 
@@ -62,7 +62,7 @@ $titlelabels-font: "Bebas Neue";
 
     .platformlist {
         position:relative;
-        margin-top: 3.5%;
+        margin-top: 2.5%;
         margin-left: 19%;
         width: 60%;
         display: flex;
@@ -81,8 +81,8 @@ $titlelabels-font: "Bebas Neue";
         font-family: $titlelabels-font;
         font-size: 16.5px;
         border: solid 2px;
-        padding-inline: 1%;
-        padding-block: 1%;
+        padding-inline: 0.6%;
+        padding-block: 0.6%;
         cursor: pointer;
     }
 

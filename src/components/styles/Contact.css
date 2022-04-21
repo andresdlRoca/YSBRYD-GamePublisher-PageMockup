@@ -1,1 +1,139 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../../assets/fonts/BebasNeue-webfont.woff);
+}
+
+.contact {
+  position: relative;
+  background-color: #fbfbfb;
+  right: 0;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact p {
+  font-family: "Bebas Neue";
+  position: relative;
+  margin-top: 1%;
+  left: 18%;
+  font-size: 19.5px;
+  text-align: center;
+  width: 65%;
+}
+
+.contact .viewposts {
+  margin-top: -0.5%;
+  position: relative;
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 6.4%;
+  left: 46%;
+  font-family: "Arial";
+  background-color: #f3bc32;
+  color: #fbfbfb;
+  padding-block: 0.8%;
+  padding-inline: 1.3%;
+  border-radius: 3%;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 7%;
+}
+
+.contact .TitleLabels {
+  display: block;
+  font-family: "Bebas Neue";
+  font-size: 500%;
+  font-weight: 500;
+  text-align: center;
+  background-color: #f3bc32;
+  color: #fbfbfb;
+  position: relative;
+  left: 41%;
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+  width: 20%;
+  padding-block: 0.2%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  word-wrap: break-word;
+}
+
+.contact .TitleLabels::before {
+  content: "";
+  position: absolute;
+  left: -2.3%;
+  top: -7%;
+  width: 102%;
+  height: 107%;
+  background-color: #fbfbfb;
+  border: solid orange 3.8px;
+  -webkit-transform: translateZ(-1px);
+          transform: translateZ(-1px);
+}
+
+.contact .subtitlecontact {
+  position: relative;
+  margin-top: 0.1%;
+  padding-bottom: 2.5%;
+  left: 21.8%;
+  font-size: 23.5px;
+  text-align: center;
+  width: 58%;
+}
+
+.contact .bottomlineis {
+  position: relative;
+  background-color: #f1f1f1;
+  right: 0;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contact .bottomlineis p {
+  font-family: "Arial";
+  position: relative;
+  margin-top: 1%;
+  left: 20%;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  width: 62%;
+}
+
+.contact .footer .footerlogo {
+  display: block;
+  position: relative;
+  padding-top: 5%;
+  left: 43%;
+  height: 20%;
+  width: 18%;
+}
+
+.contact .footer p {
+  font-family: "Arial";
+  position: relative;
+  margin-top: 1%;
+  left: 19%;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  width: 62%;
+}
+/*# sourceMappingURL=Contact.css.map */
