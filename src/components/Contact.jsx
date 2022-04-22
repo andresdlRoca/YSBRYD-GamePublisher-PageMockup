@@ -5,7 +5,7 @@ import sitelogo from "../assets/logo-site.jpg"
 export default function Contact() {
 
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <p>WANT TO KNOW MORE ABOUT US?</p>
             <div className="viewposts">View All Posts</div>
             <div className="TitleLabels">CONTACT US</div>

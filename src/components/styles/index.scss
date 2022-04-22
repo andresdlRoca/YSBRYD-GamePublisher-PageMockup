@@ -4,6 +4,10 @@ body {
     background-color: $backgroundcolor;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .page-wrap {
     position:absolute;
     top: 0;

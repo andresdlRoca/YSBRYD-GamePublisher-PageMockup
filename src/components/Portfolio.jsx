@@ -4,7 +4,7 @@ import './styles/Portfolio.css';
 export default function Portfolio() {
 
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="portfolio">
             <div className="TitleLabels" id="portfolioid">Portfolio</div>
             <div className="portfoliosubtitle">DISCOVER THESE WORLDS OF EMOTIVE EXPERIENCES</div>
             <div className="platformgrid">

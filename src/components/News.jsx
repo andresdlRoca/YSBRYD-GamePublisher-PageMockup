@@ -4,7 +4,7 @@ import './styles/News.css';
 export default function News() {
 
     return (
-        <div className="news">
+        <div className="news" id="news">
             <div className="TitleLabels">NEWS</div>
             <div className="newssubtitles">HERE’S SOME INSIGHT ON WHAT YSBRYD HAS BEEN UP TO RECENTLY.</div>
             <div className="newsgrid">
