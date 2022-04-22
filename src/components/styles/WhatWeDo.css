@@ -18,9 +18,9 @@
   font-family: "Bebas Neue";
   color: #f8b53b;
   position: relative;
-  margin-top: 3%;
   padding-bottom: 2%;
-  left: 15%;
+  margin: 0 auto;
+  margin-top: 3%;
   font-size: 35px;
   text-align: center;
   width: 70%;
@@ -29,8 +29,9 @@
 .WWD .features {
   width: 70%;
   height: 60%;
-  left: 15%;
+  margin: 0 auto;
   position: relative;
+  margin: 0 auto;
 }
 
 .WWD .features .moneythumb, .WWD .features .polishthumb, .WWD .features .visibilitythumb {
@@ -123,7 +124,7 @@
 .WWD .features .featDesc {
   position: relative;
   font-family: "Arial";
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   word-wrap: break-word;

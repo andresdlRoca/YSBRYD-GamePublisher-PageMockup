@@ -18,6 +18,7 @@ $titlelabels-font: "Bebas Neue";
     justify-content: center;
 
     .TitleLabels {
+        margin: 0 auto;
         display: block;
         font-family: $titlelabels-font;
         font-size: 500%;
@@ -26,7 +27,7 @@ $titlelabels-font: "Bebas Neue";
         background-color: rgb(243, 188, 50);
         color: rgb(251, 251, 251);
         position: relative;
-        left: 38%;
+
         margin-top: 1%;
         margin-bottom: 1.5%;
         
@@ -51,20 +52,20 @@ $titlelabels-font: "Bebas Neue";
     }
 
     .subtitlewhy {
+        margin: 0 auto;
         position: relative;
         margin-top: 0.1%;
         padding-bottom: 2%;
-        left: 21%;
         font-size: 23.5px;
         text-align: center;
         width: 58%;
     }
 
     p{
+        margin: 0 auto;
         font-family: "Arial";
         position: relative;
         margin-top: 1%;
-        left: 18%;
         font-size: 18px;
         text-align: center;
         width: 65%;
@@ -87,12 +88,13 @@ $titlelabels-font: "Bebas Neue";
         justify-content: center;
 
         .partnertext {
+            margin: 0 auto;
             font-family: $titlelabels-font;
             position: relative;
-            left: 15%;
             font-size: 45px;
             text-align: center;
-            width: 75%;
+            width: 65%;
+            line-height: 140%;
         }
 
     }

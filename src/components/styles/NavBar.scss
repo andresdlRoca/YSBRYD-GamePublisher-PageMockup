@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../../assets/fonts/BebasNeue-webfont.woff);
+}
+
+$sections-font: "Bebas Neue";
+
+.navbar {
+    position:sticky;
+    overflow:hidden;
+    background-color: white;
+    opacity: 0.85;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    -moz-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.075);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.075);
+    z-index: 2;
+
+    .logonavbar {
+        float: left;
+        display: block;
+        width: 16%;
+        padding-block: 0.6%;
+        margin-left: 2.5%;
+        cursor: pointer;
+    }
+
+    .sections {
+        margin-top: 2%;
+        float: right;
+        display: block;
+        color: black;
+        font-family: $sections-font;
+        font-size: 140%;
+        text-align: center;
+        padding-inline: 1%;
+        text-decoration: none;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            display: block;
+            float:left;
+            padding-inline: 2%;
+            cursor: pointer;
+
+
+        }
+
+        li:hover {
+            transition: 0.7s;
+            color: rgb(248, 181, 59)
+        }
+
+        
+    }
+
+}

@@ -18,6 +18,7 @@
 }
 
 .whyysbryd .TitleLabels {
+  margin: 0 auto;
   display: block;
   font-family: "Bebas Neue";
   font-size: 500%;
@@ -26,7 +27,6 @@
   background-color: #f3bc32;
   color: #fbfbfb;
   position: relative;
-  left: 38%;
   margin-top: 1%;
   margin-bottom: 1.5%;
   width: 24%;
@@ -50,20 +50,20 @@
 }
 
 .whyysbryd .subtitlewhy {
+  margin: 0 auto;
   position: relative;
   margin-top: 0.1%;
   padding-bottom: 2%;
-  left: 21%;
   font-size: 23.5px;
   text-align: center;
   width: 58%;
 }
 
 .whyysbryd p {
+  margin: 0 auto;
   font-family: "Arial";
   position: relative;
   margin-top: 1%;
-  left: 18%;
   font-size: 18px;
   text-align: center;
   width: 65%;
@@ -89,11 +89,12 @@
 }
 
 .whyysbryd .partnersection .partnertext {
+  margin: 0 auto;
   font-family: "Bebas Neue";
   position: relative;
-  left: 15%;
   font-size: 45px;
   text-align: center;
-  width: 75%;
+  width: 65%;
+  line-height: 140%;
 }
 /*# sourceMappingURL=WhyYsbryd.css.map */

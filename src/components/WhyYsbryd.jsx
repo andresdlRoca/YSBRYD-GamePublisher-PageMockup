@@ -13,8 +13,7 @@ export default function WhyYsbryd() {
             <p>Take this – our promise to raise you onto the high bridge over such obstacles, to the victorious end of the journey you deserve.</p>
             <p>This world deserves more curious, spirited games, and we can make them, together.</p>
             <div className="partnersection"style={{ backgroundImage: `url(${ysbrydthewizard})`}}>
-                <div className="partnertext">A worthy partner puts real skin in the game, just like you do.</div>
-                <div className="partnertext">Let us elevate your work into true magic.</div>
+                <div className="partnertext">A worthy partner puts real skin in the game, just like you do. Let us elevate your work into true magic.</div>
             </div>
         </div>
     );

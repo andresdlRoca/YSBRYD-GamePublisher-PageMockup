@@ -11,7 +11,7 @@ $tiles-font: "Times New Roman", Serif;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 3%;
-    padding-bottom: 8%;
+    padding-bottom: 5%;
     padding-left: 1.5%;
 
     .frontpagetiles {
@@ -31,31 +31,61 @@ $tiles-font: "Times New Roman", Serif;
 }
 
 #tile1 {
-    margin-left: 13%;
+    margin-left: -40%;
     margin-top: 1%;
     width: 36%;
     padding-inline: 1%;
     padding-block: 0.5%;
+    animation-duration: 0.3s;
+    animation-name: slideout1;
+    animation-fill-mode: forwards;
+}
+@keyframes slideout1 {
+    from    { margin-left: -40%; 
+              opacity:0  ;}
+    to      { margin-left: 13%;
+                opacity:1;}
 }
 
 #tile2 {
     width: 29%;
-    margin-left: 13.5%;
+    margin-left: -40%;
     margin-top: 7%;
     padding-inline: 1%;
     padding-block: 0.5%;
+    animation-duration: 0.3s;
+    animation-delay: 0.3s;
+    animation-name: slideout2;
+    animation-fill-mode: forwards;
+}
+@keyframes slideout2 {
+    from    { margin-left: -40%; 
+              opacity:0  ;}
+    to      { margin-left: 13.5%;
+                opacity:1;}
 }
 
 #tile3 {
     width: 30%;
-    margin-left: 14%;
+    margin-left: -40%;
     margin-top: 7%;
     padding-inline: 1%;
     padding-block: 0.5%;
+    animation-duration: 0.3s;
+    animation-delay: 0.6s;
+    animation-name: slideout3;
+    animation-fill-mode: forwards;
+}
+@keyframes slideout3 {
+    from    { margin-left: -40%; 
+              opacity:0  ;}
+    to      { margin-left: 14%;
+                opacity:1;}
 }
 
 
 #learnmorebtn {
+    opacity:0;
     font-family: $tiles-font;
     display: block;
     margin-left: 60%;
@@ -70,7 +100,15 @@ $tiles-font: "Times New Roman", Serif;
     transition: 0.3s;
     text-decoration: none;;
     cursor: pointer;
+    animation-name: fadein;
+    animation-duration: 0.5s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes fadein {
+    from    { opacity: 0;}
+    to      { opacity: 1;}
 }
 
 

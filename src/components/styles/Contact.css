@@ -18,16 +18,18 @@
 }
 
 .contact p {
+  margin: 0 auto;
   font-family: "Bebas Neue";
   position: relative;
   margin-top: 1%;
-  left: 18%;
+  margin-bottom: 1.5%;
   font-size: 19.5px;
   text-align: center;
   width: 65%;
 }
 
 .contact .viewposts {
+  margin: 0 auto;
   margin-top: -0.5%;
   position: relative;
   display: block;
@@ -37,7 +39,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 6.4%;
-  left: 46%;
   font-family: "Arial";
   background-color: #f3bc32;
   color: #fbfbfb;
@@ -50,6 +51,7 @@
 }
 
 .contact .TitleLabels {
+  margin: 0 auto;
   display: block;
   font-family: "Bebas Neue";
   font-size: 500%;
@@ -58,7 +60,6 @@
   background-color: #f3bc32;
   color: #fbfbfb;
   position: relative;
-  left: 41%;
   margin-top: 1%;
   margin-bottom: 1.5%;
   width: 20%;
@@ -82,16 +83,17 @@
 }
 
 .contact .subtitlecontact {
+  margin: 0 auto;
   position: relative;
   margin-top: 0.1%;
   padding-bottom: 2.5%;
-  left: 21.8%;
   font-size: 23.5px;
   text-align: center;
   width: 58%;
 }
 
 .contact .bottomlineis {
+  margin: 0 auto;
   position: relative;
   background-color: #f1f1f1;
   right: 0;
@@ -99,7 +101,7 @@
   height: 100%;
   width: 100%;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -107,10 +109,10 @@
 }
 
 .contact .bottomlineis p {
+  margin: 0 auto;
   font-family: "Arial";
   position: relative;
   margin-top: 1%;
-  left: 20%;
   font-size: 14px;
   font-weight: 100;
   text-align: center;
@@ -118,19 +120,20 @@
 }
 
 .contact .footer .footerlogo {
+  margin: 0 auto;
   display: block;
   position: relative;
   padding-top: 5%;
-  left: 43%;
   height: 20%;
-  width: 18%;
+  width: 13%;
+  cursor: pointer;
 }
 
 .contact .footer p {
+  margin: 0 auto;
   font-family: "Arial";
   position: relative;
   margin-top: 1%;
-  left: 19%;
   font-size: 14px;
   font-weight: 100;
   text-align: center;

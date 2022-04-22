@@ -18,6 +18,7 @@ $titlelabels-font: "Bebas Neue";
     justify-content: center;
 
     .TitleLabels {
+        margin: 0 auto;
         display: block;
         font-family: $titlelabels-font;
         font-size: 500%;
@@ -26,7 +27,6 @@ $titlelabels-font: "Bebas Neue";
         background-color: rgb(243, 188, 50);
         color: rgb(251, 251, 251);
         position: relative;
-        left: 45%;
         margin-top: 1%;
         margin-bottom: 1.5%;
         
@@ -51,16 +51,17 @@ $titlelabels-font: "Bebas Neue";
     }
 
     .newssubtitles {
+        margin: 0 auto;
         position: relative;
         margin-top: 0.1%;
         padding-bottom: 2%;
-        left: 21%;
         font-size: 23.5px;
         text-align: center;
         width: 58%;
     }
 
     .newsgrid {
+        margin: 0 auto;
         position: relative;
         background-color: rgb(241, 241, 241);
         right: 0;

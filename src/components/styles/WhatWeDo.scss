@@ -19,9 +19,9 @@ $generalfont: "Bebas Neue";
         font-family: $generalfont;
         color: rgb(248, 181, 59);
         position: relative;
-        margin-top: 3%;
         padding-bottom: 2%;
-        left: 15%;
+        margin: 0 auto;
+        margin-top: 3%;
         font-size: 35px;
         text-align: center;
         width: 70%;
@@ -31,10 +31,10 @@ $generalfont: "Bebas Neue";
         //background-color: rgba(0, 0, 0, 0.044);
         width: 70%;
         height: 60%;
-        left: 15%;
+        margin: 0 auto;
         position: relative;
         //padding-bottom: 20%;
-        
+                margin: 0 auto;
         .moneythumb, .polishthumb, .visibilitythumb {
             filter: invert(1);
         }
@@ -46,7 +46,7 @@ $generalfont: "Bebas Neue";
             width: 33.33%;
             height: 50%;
             //background-color: rgba(234, 255, 0, 0.193);
-
+            
             .moneythumb {
                 position: relative;
                 margin-top: 15%;
@@ -132,7 +132,7 @@ $generalfont: "Bebas Neue";
         .featDesc {
             position: relative;
             font-family: "Arial";
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 500;
             text-align: center;
             word-wrap: break-word;

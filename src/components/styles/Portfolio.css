@@ -18,6 +18,7 @@
 }
 
 .portfolio .TitleLabels {
+  margin: 0 auto;
   display: block;
   font-family: "Bebas Neue";
   font-size: 500%;
@@ -26,7 +27,6 @@
   background-color: #f3bc32;
   color: #fbfbfb;
   position: relative;
-  left: 42.5%;
   margin-top: 6.5%;
   margin-bottom: 3%;
   width: 18%;
@@ -50,19 +50,20 @@
 }
 
 .portfolio .portfoliosubtitle {
+  margin: 0 auto;
   position: relative;
   margin-top: 1%;
   padding-bottom: 2%;
-  left: 16%;
   font-size: 23.5px;
   text-align: center;
   width: 70%;
 }
 
 .portfolio .platformlist {
+  margin: 0 auto;
   position: relative;
   margin-top: 2.5%;
-  margin-left: 19%;
+  right: 2%;
   width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,6 +76,7 @@
 }
 
 .portfolio .platformlist li {
+  margin: 0 auto;
   display: block;
   height: auto;
   width: auto;
@@ -95,6 +97,7 @@
 }
 
 .portfolio .gamegrid {
+  margin: 0 auto;
   position: relative;
   display: -ms-grid;
   display: grid;

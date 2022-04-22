@@ -6,12 +6,14 @@ import Portfolio from "./Portfolio.jsx";
 import WhyYsbryd from "./WhyYsbryd.jsx";
 import News from "./News.jsx";
 import Contact from "./Contact.jsx";
+import NavBar from "./NavBar.jsx";
 
 export default function PageWrap() {
 
     return(
         <div className="page-wrap">
             <Frontpage />
+            <NavBar />
             <About />
             <WhatWeDo />
             <Portfolio />

@@ -18,6 +18,7 @@
 }
 
 .news .TitleLabels {
+  margin: 0 auto;
   display: block;
   font-family: "Bebas Neue";
   font-size: 500%;
@@ -26,7 +27,6 @@
   background-color: #f3bc32;
   color: #fbfbfb;
   position: relative;
-  left: 45%;
   margin-top: 1%;
   margin-bottom: 1.5%;
   width: 10%;
@@ -50,16 +50,17 @@
 }
 
 .news .newssubtitles {
+  margin: 0 auto;
   position: relative;
   margin-top: 0.1%;
   padding-bottom: 2%;
-  left: 21%;
   font-size: 23.5px;
   text-align: center;
   width: 58%;
 }
 
 .news .newsgrid {
+  margin: 0 auto;
   position: relative;
   background-color: #f1f1f1;
   right: 0;

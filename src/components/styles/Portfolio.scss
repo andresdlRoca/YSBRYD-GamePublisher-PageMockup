@@ -18,6 +18,7 @@ $titlelabels-font: "Bebas Neue";
     justify-content: center;
 
     .TitleLabels {
+        margin: 0 auto;
         display: block;
         font-family: $titlelabels-font;
         font-size: 500%;
@@ -26,7 +27,6 @@ $titlelabels-font: "Bebas Neue";
         background-color: rgb(243, 188, 50);
         color: rgb(251, 251, 251);
         position: relative;
-        left: 42.5%;
         margin-top: 6.5%;
         margin-bottom: 3%;
         
@@ -51,19 +51,20 @@ $titlelabels-font: "Bebas Neue";
     }
 
     .portfoliosubtitle {
+        margin: 0 auto;
         position: relative;
         margin-top: 1%;
         padding-bottom: 2%;
-        left: 16%;
         font-size: 23.5px;
         text-align: center;
         width: 70%;
     }
 
     .platformlist {
+        margin: 0 auto;
         position:relative;
         margin-top: 2.5%;
-        margin-left: 19%;
+        right: 2%;
         width: 60%;
         display: flex;
         flex-wrap: wrap;
@@ -71,6 +72,7 @@ $titlelabels-font: "Bebas Neue";
     }
 
     .platformlist li {
+        margin: 0 auto;
         display: block;
         height: auto;
         width: auto;
@@ -91,6 +93,7 @@ $titlelabels-font: "Bebas Neue";
     }
 
     .gamegrid {
+        margin: 0 auto;
         position: relative;
         display: grid;
         margin-top: 10%;
