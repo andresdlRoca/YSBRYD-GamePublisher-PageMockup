@@ -119,7 +119,7 @@ $titlelabels-font: "Bebas Neue";
             display: flex;
             flex-wrap: wrap;
 
-            li {
+            .thumbnail {
                 display: block;
                 width: auto;
                 position: relative;
@@ -128,7 +128,7 @@ $titlelabels-font: "Bebas Neue";
                 margin-block: -0.1%;
                 overflow: hidden;
 
-                img {
+                .imgthumb {
                     width: 100%;
                     transition: 0.4s;
                 }
@@ -155,7 +155,7 @@ $titlelabels-font: "Bebas Neue";
                         font-size: 14px;
                     }
 
-                    p {
+                    .title, .platforms {
                         transition: 0.4s;
                         opacity: 0;
                         margin-left: 10%;
@@ -170,17 +170,17 @@ $titlelabels-font: "Bebas Neue";
 
             }
 
-            li:hover .overlay {
+            .thumbnail:hover .overlay {
 
                 visibility: visible;
                 background-color: rgba(0, 0, 0, 0.6);
             }
 
-            li:hover .overlay p {
+            .thumbnail:hover .overlay p {
                 opacity: 1;
             }
 
-            li:hover img {
+            .thumbnail:hover img {
                 transform: scale(1.3);
             }
 
@@ -189,48 +189,23 @@ $titlelabels-font: "Bebas Neue";
 
 }
 
+.nonvisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
 .selectedplat {
     color: rgb(243, 188, 50);
 }
 
-.clickedthumb {
+#clickedthumb {
     border: solid 6px rgba(128, 128, 128, 0.407);
 }
 
 
 
 
-.all {
-    display: block;
-}
 
-.consoles {
-    display: block;
-}
-.desktop {
-    display: block;
-}
-.ios {
-    display: block;
-}
-.linux {
-    display: block;
-}
-.mac {
-    display: block;
-}
-.pc {
-    display: block;
-}
-.psvita {
-    display: block;
-}
-.ps4 {
-    display: block;
-}
-.switch {
-    display: block;
-}
-.xboxone {
-    display: block;
-}
