@@ -61,49 +61,49 @@ export default function Portfolio() {
             </div>
             <div className="gamegrid">
                 <ul className="gamelist">
-                    <li onClick={() => changeGame("vallhalla")} className={vallhallaplats.includes(clickedPlatform) ?  "thumbnail visible" : "nonvisible"}>
+                    <li onClick={() => changeGame("vallhalla")} id ={clickedGame=="vallhalla" ? "clickedthumb" : ""} className={vallhallaplats.includes(clickedPlatform) ?  "thumbnail visible" : "nonvisible"}>
                         <div className="overlay">
                             <p className="title">VA-11 HALL-A</p>
                             <p className="platforms">LINUX, MAC, PC, PS4, SWITCH</p>
                         </div>
                         <img className="imgthumb" id="vallhalla" src={vallhallathumb} alt="VA-11 HALL-A"/>
                     </li>
-                    <li onClick={() => changeGame("masquerada")} className={masqueradaplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
+                    <li onClick={() => changeGame("masquerada")} id ={clickedGame=="masquerada" ? "clickedthumb" : ""} className={masqueradaplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
                         <div className="overlay">
                             <p className="title">MASQUERADA: SONGS AND SHADOWS</p>
                             <p className="platforms">LINUX, MAC, PC, PS4, SWITCH, XBOX ONE</p>
                         </div>
                         <img className="imgthumb" id="masquerada" src={masqueradathumb} alt="MASQUERADA: SONGS AND SHADOWS"/>
                     </li>
-                    <li onClick={() => changeGame("sheremebered")} className={srcplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
+                    <li onClick={() => changeGame("sheremebered")} id ={clickedGame=="sheremebered" ? "clickedthumb" : ""} className={srcplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
                         <div className="overlay">
                             <p className="title">SHE REMEMBERED CATERPILLARS</p>
                             <p className="platforms">IOS, MAC, PC, SWITCH</p>
                         </div>
                         <img className="imgthumb" id="src" src={SRCthumb} alt="SHE REMEMBERED CATERPILLARS"/>
                     </li>
-                    <li onClick={() => changeGame("yiik")} className={yiikplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
+                    <li onClick={() => changeGame("yiik")} id ={clickedGame=="yiik" ? "clickedthumb" : ""} className={yiikplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
                         <div className="overlay">
                             <p className="title">YIIK: A POST-MODERN RPG</p>
                             <p className="platforms">LINUX, MAC, PC, VISTA, PS4, SWITCH</p>
                         </div>
                         <img className="imgthumb" id="yiik" src={yiikthumb} alt="YIIK: A POST MODERN RPG"/>
                     </li>
-                    <li onClick={() => changeGame("woh")} className={wohplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
+                    <li onClick={() => changeGame("woh")} id ={clickedGame=="woh" ? "clickedthumb" : ""} className={wohplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
                         <div className="overlay">
                             <p className="title">WORLD OF HORROR</p>
                             <p className="platforms">MAC, PC, PS4, SWITCH</p>
                         </div>
                         <img className="imgthumb" id="WOH" src={WOHthumb} alt="WORLD OF HORROR"/>
                     </li>
-                    <li onClick={() => changeGame("nirvanna")} className={nirvannaplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
+                    <li onClick={() => changeGame("nirvanna")} id ={clickedGame=="nirvanna" ? "clickedthumb" : ""} className={nirvannaplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
                         <div className="overlay">
                             <p className="title">N1RV ANN-A: CYBERPUNK BARTENDER ACTION</p>
                             <p className="platforms">MAC, PC, PS4, SWITCH</p>
                         </div>
                         <img className="imgthumb" id="nirvanna" src={nirvannathumb} alt="N1RV ANN-A"/>
                     </li>
-                    <li onClick={() => changeGame("noplace")} className={noplaceplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
+                    <li onClick={() => changeGame("noplace")} id ={clickedGame=="noplace" ? "clickedthumb" : ""} className={noplaceplats.includes(clickedPlatform) ?  "thumbnail visible" : " nonvisible"}>
                         <div className="overlay">
                             <p className="title">NO PLACE FOR BRAVERY</p>
                             <p className="platforms">CONSOLES, DESKTOP, PC, SWITCH</p>
