@@ -11,52 +11,99 @@ import yiikthumb from "../assets/yiikthumb.jpg";
 
 export default function Portfolio() {
 
+    const [clickedGame, setGame] = useState("");
+    const [clickedPlatform, setPlatform] = useState("all");
+
+
+    const changePlatform = (platform) => {
+        setPlatform(platform);
+    }
+
+    const changeGame = (game) => {
+        setGame(game);
+    }
+
+
+    useEffect(() => {
+        console.log(`plataform es ${clickedPlatform}`);
+        console.log(`el juego es ${clickedGame}`);
+    }, [clickedPlatform, clickedGame]);
+
+
     return (
         <div className="portfolio" id="portfolio">
             <div className="TitleLabels" id="portfolioid">Portfolio</div>
             <div className="portfoliosubtitle">DISCOVER THESE WORLDS OF EMOTIVE EXPERIENCES</div>
             <div className="platformgrid">
                 <ul className="platformlist">
-                    <li>ALL</li>
-                    <li>CONSOLES</li>
-                    <li>DESKTOP</li>
-                    <li>IOS</li>
-                    <li>LINUX</li>
-                    <li>MAC</li>
-                    <li>PC</li>
-                    <li>PS VITA</li>
-                    <li>PS4</li>
-                    <li>SWITCH</li>
-                    <li>XBOX ONE</li>
+                    <div className="listing">
+                        <li onClick={() => changePlatform("all")} className={clickedPlatform=="all" ? "selectedplat" : ""}>ALL</li>
+                        <li onClick={() => changePlatform("consoles")} className={clickedPlatform=="consoles" ? "selectedplat" : ""}>CONSOLES</li>
+                        <li onClick={() => changePlatform("desktop")} className={clickedPlatform=="desktop" ? "selectedplat" : ""}>DESKTOP</li>
+                        <li onClick={() => changePlatform("ios")} className={clickedPlatform=="ios" ? "selectedplat" : ""}>IOS</li>
+                        <li onClick={() => changePlatform("linux")} className={clickedPlatform=="linux" ? "selectedplat" : ""}>LINUX</li>
+                        <li onClick={() => changePlatform("mac")} className={clickedPlatform=="mac" ? "selectedplat" : ""}>MAC</li>
+                        <li onClick={() => changePlatform("pc")} className={clickedPlatform=="pc" ? "selectedplat" : ""}>PC</li>
+                        <li onClick={() => changePlatform("psvita")} className={clickedPlatform=="psvita" ? "selectedplat" : ""}>PS VITA</li>
+                        <li onClick={() => changePlatform("ps4")} className={clickedPlatform=="ps4" ? "selectedplat" : ""}>PS4</li>
+                        <li onClick={() => changePlatform("switch")} className={clickedPlatform=="switch" ? "selectedplat" : ""}>SWITCH</li>
+                        <li onClick={() => changePlatform("xboxone")} className={clickedPlatform=="xboxone" ? "selectedplat" : ""}>XBOX ONE</li>
+                    </div>
                 </ul>
             </div>
             <div className="gamegrid">
-                <div className="gamelist">
-                    <div className="vallhallathumb">
-                        <img className="GameThumb" id="vallhalla" src={vallhallathumb} alt="VA-11 HALL-A"/>
-                    </div>
-                    <div className="masqueradathumb">
-                        <img className="GameThumb" id="masquerada" src={masqueradathumb} alt="MASQUERADA: SONGS AND SHADOWS"/>
-                    </div>
-                    <div className="srcthumb">
-                        <img className="GameThumb" id="src" src={SRCthumb} alt="SHE REMEMBERED CATERPILLARS"/>
-                    </div>
-                    <div className="yiikthumb">
-                        <img className="GameThumb" id="yiik" src={yiikthumb} alt="YIIK: A POST MODERN RPG"/>
-                    </div>
-                    <div className="worldofhorrorthumb">
-                        <img className="GameThumb" id="WOH" src={WOHthumb} alt="WORLD OF HORROR"/>
-                    </div>
-                    <div className="nirvannathumb">
-                        <img className="GameThumb" id="nirvanna" src={nirvannathumb} alt="N1RV ANN-A"/>
-                    </div>
-                    <div className="noplacethumb">
-                        <img className="GameThumb" id="noplaceforbravery" src={npfbthumb} alt="NO PLACE FOR BRAVERY"/>
-                    </div>
-                </div>
+                <ul className="gamelist">
+                    <li onClick={() => changeGame("vallhalla")} className="vallhallathumb">
+                        <div className="overlay">
+                            <p className="title">VA-11 HALL-A</p>
+                            <p className="platforms">LINUX, MAC, PC, PS4, SWITCH</p>
+                        </div>
+                        <img className="imgthumb" id="vallhalla" src={vallhallathumb} alt="VA-11 HALL-A"/>
+                    </li>
+                    <li onClick={() => changeGame("masquerada")} className="masqueradathumb">
+                        <div className="overlay">
+                            <p className="title">MASQUERADA: SONGS AND SHADOWS</p>
+                            <p className="platforms">LINUX, MAC, PC, PS4, SWITCH, XBOX ONE</p>
+                        </div>
+                        <img className="imgthumb" id="masquerada" src={masqueradathumb} alt="MASQUERADA: SONGS AND SHADOWS"/>
+                    </li>
+                    <li onClick={() => changeGame("sheremebered")} className="srcthumb">
+                        <div className="overlay">
+                            <p className="title">SHE REMEMBERED CATERPILLARS</p>
+                            <p className="platforms">IOS, MAC, PC, SWITCH</p>
+                        </div>
+                        <img className="imgthumb" id="src" src={SRCthumb} alt="SHE REMEMBERED CATERPILLARS"/>
+                    </li>
+                    <li onClick={() => changeGame("yiik")} className="yiikthumb">
+                        <div className="overlay">
+                            <p className="title">YIIK: A POST-MODERN RPG</p>
+                            <p className="platforms">LINUX, MAC, PC, VISTA, PS4, SWITCH</p>
+                        </div>
+                        <img className="imgthumb" id="yiik" src={yiikthumb} alt="YIIK: A POST MODERN RPG"/>
+                    </li>
+                    <li onClick={() => changeGame("woh")} className="worldofhorrorthumb">
+                        <div className="overlay">
+                            <p className="title">WORLD OF HORROR</p>
+                            <p className="platforms">MAC, PC, PS4, SWITCH</p>
+                        </div>
+                        <img className="imgthumb" id="WOH" src={WOHthumb} alt="WORLD OF HORROR"/>
+                    </li>
+                    <li onClick={() => changeGame("nirvanna")} className="nirvannathumb">
+                        <div className="overlay">
+                            <p className="title">N1RV ANN-A: CYBERPUNK BARTENDER ACTION</p>
+                            <p className="platforms">MAC, PC, PS4, SWITCH</p>
+                        </div>
+                        <img className="imgthumb" id="nirvanna" src={nirvannathumb} alt="N1RV ANN-A"/>
+                    </li>
+                    <li onClick={() => changeGame("noplace")} className="noplacethumb">
+                        <div className="overlay">
+                            <p className="title">NO PLACE FOR BRAVERY</p>
+                            <p className="platforms">CONSOLES, DESKTOP, PC, SWITCH</p>
+                        </div>
+                        <img className="imgthumb" id="noplaceforbravery" src={npfbthumb} alt="NO PLACE FOR BRAVERY"/>
+                    </li>
+                </ul>
             </div>
-
-
         </div>
     );
 
