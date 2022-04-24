@@ -2,7 +2,7 @@
 YSBRYD GAMES Page Clone  
 #### Link de pagina original  
 https://www.ysbryd.net  
-#Tecnologias utilizadas  
+# Tecnologias utilizadas  
 ## React   
 La biblioteca de Javascript para el desarrollo de aplicaciones de una sola pagina por excelencia, durante este proyecto se utilizo para la creación de los diferentes componentes utilizados en el desarrollo de la pagina, la pagina se dividio en diferentes secciones como la pagina de información ([About](https://github.com/andresdlRoca/Proyecto1-STW-UVG/blob/main/src/components/About.jsx)), la pagina de inicio ([Frontpage](https://github.com/andresdlRoca/Proyecto1-STW-UVG/blob/main/src/components/Frontpage.jsx)), la pagina de portafolio ([Portfolio](https://github.com/andresdlRoca/Proyecto1-STW-UVG/blob/main/src/components/Portfolio.jsx)), entre otras.  
 ## Babel  
