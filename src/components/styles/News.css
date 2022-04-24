@@ -60,7 +60,6 @@
 }
 
 .news .newsgrid {
-  margin: 0 auto;
   position: relative;
   background-color: #f1f1f1;
   right: 0;
@@ -75,10 +74,103 @@
 }
 
 .news .newsgrid .newslist {
-  display: block;
-  height: auto;
-  width: auto;
+  background-color: rgba(0, 0, 0, 0.044);
+  width: 70%;
+  height: 60%;
+  margin: 0 auto;
   position: relative;
-  float: left;
+  padding-bottom: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Arial";
+}
+
+.news .newsgrid .newslist .new1 {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  height: 50%;
+  background-color: rgba(234, 255, 0, 0.193);
+}
+
+.news .newsgrid .newslist .new2 {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  height: 50%;
+  background-color: rgba(0, 0, 255, 0.089);
+}
+
+.news .newsgrid .newslist .new3 {
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  width: 33.33%;
+  height: 50%;
+  background-color: rgba(255, 0, 0, 0.137);
+}
+
+.news .newsgrid .newslist .newthumb {
+  background-color: #f3bc32;
+  border: solid 6px white;
+  -webkit-box-shadow: 0 0 3px #ccc;
+          box-shadow: 0 0 3px #ccc;
+  width: 75%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.news .newsgrid .newslist .newthumb:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.news .newsgrid .newslist .newdate {
+  background-color: #f3bc32;
+}
+
+.news .newsgrid .newslist .newcomments {
+  background-color: #e7e7e7;
+}
+
+.news .newsgrid .newslist .icon {
+  width: 6%;
+  background-color: #e7e7e7;
+  border: solid 20px #e7e7e7;
+  border-radius: 45%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.news .newsgrid .newslist .icon .mag {
+  width: 100%;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.news .newsgrid .newslist .icon:hover {
+  background-color: #f3bc32;
+  border-color: #f3bc32;
+}
+
+.news .newsgrid .newslist .icon:hover .mag {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.news .newsgrid .newslist .readmore {
+  color: #f3bc32;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  text-decoration: none !important;
+}
+
+.news .newsgrid .newslist .readmore:hover {
+  color: black;
 }
 /*# sourceMappingURL=News.css.map */

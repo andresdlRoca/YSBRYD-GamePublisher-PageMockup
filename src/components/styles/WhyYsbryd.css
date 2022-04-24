@@ -73,10 +73,9 @@
   margin-top: 5%;
   position: relative;
   background-color: orange;
-  right: 0px;
-  top: 0px;
   width: auto;
   height: auto;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

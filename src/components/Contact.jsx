@@ -4,6 +4,11 @@ import sitelogo from "../assets/logo-site.jpg"
 
 export default function Contact() {
 
+
+    function refreshPage() {
+        window.location.reload(false);
+    }
+
     return (
         <div className="contact" id="contact">
             <p>WANT TO KNOW MORE ABOUT US?</p>
@@ -15,7 +20,7 @@ export default function Contact() {
                 <p>The best way to make contact with us is to make something so freaking awesome that we can’t help but get in touch with you. Otherwise, hop on Twitter and ping @YsbrydGames.</p>
             </div>
             <div className="footer">
-                <img className="footerlogo" src={sitelogo} alt="Logo of website"/>
+                <img onClick={refreshPage} className="footerlogo" src={sitelogo} alt="Logo of website"/>
                 <p>© Ysbryd Games Pte Ltd. 2014. All rights reserved.</p>
             </div>
 
