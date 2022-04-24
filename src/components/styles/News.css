@@ -53,14 +53,16 @@
   margin: 0 auto;
   position: relative;
   margin-top: 0.1%;
-  padding-bottom: 2%;
+  padding-bottom: 3.5%;
   font-size: 23.5px;
   text-align: center;
   width: 58%;
 }
 
 .news .newsgrid {
-  position: relative;
+  position: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #f1f1f1;
   right: 0;
   top: 100%;
@@ -74,12 +76,10 @@
 }
 
 .news .newsgrid .newslist {
-  background-color: rgba(0, 0, 0, 0.044);
   width: 70%;
   height: 60%;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 20%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -92,7 +92,6 @@
   display: inline-block;
   width: 33.33%;
   height: 50%;
-  background-color: rgba(234, 255, 0, 0.193);
 }
 
 .news .newsgrid .newslist .new2 {
@@ -101,7 +100,6 @@
   display: inline-block;
   width: 33.33%;
   height: 50%;
-  background-color: rgba(0, 0, 255, 0.089);
 }
 
 .news .newsgrid .newslist .new3 {
@@ -110,24 +108,66 @@
   display: inline-block;
   width: 33.33%;
   height: 50%;
-  background-color: rgba(255, 0, 0, 0.137);
 }
 
 .news .newsgrid .newslist .newthumb {
+  position: relative;
   background-color: #f3bc32;
   border: solid 6px white;
   -webkit-box-shadow: 0 0 3px #ccc;
           box-shadow: 0 0 3px #ccc;
-  width: 75%;
+  width: 85%;
+  overflow: hidden;
+  margin-bottom: 3.5%;
+}
+
+.news .newsgrid .newslist .imgthumb {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  vertical-align: top;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.news .newsgrid .newslist .newthumb:hover {
+.news .newsgrid .newslist .newthumb:hover img {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
+}
+
+.news .newsgrid .newslist .newthumb:hover .thumbselect {
+  visibility: visible;
+  background: rgba(243, 188, 50, 0.9);
+}
+
+.news .newsgrid .newslist .newthumb:hover .imgselect {
+  opacity: 1;
+}
+
+.news .newsgrid .newslist .thumbselect {
+  width: inherit;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(243, 188, 50, 0);
+  z-index: 2;
+  visibility: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  bottom: 0%;
+}
+
+.news .newsgrid .newslist .imgselect {
+  width: 13%;
+  margin-left: 42%;
+  margin-top: 26%;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
 }
 
 .news .newsgrid .newslist .newdate {
@@ -139,15 +179,20 @@
 }
 
 .news .newsgrid .newslist .icon {
-  width: 6%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 5%;
   background-color: #e7e7e7;
-  border: solid 20px #e7e7e7;
-  border-radius: 45%;
+  border: solid 10px #e7e7e7;
+  border-radius: 48%;
   -webkit-transition: 0.35s;
   transition: 0.35s;
 }
 
 .news .newsgrid .newslist .icon .mag {
+  bottom: 0%;
+  margin: 0 auto;
   width: 100%;
   -webkit-transition: 0.35s;
   transition: 0.35s;
@@ -163,7 +208,52 @@
           filter: invert(1);
 }
 
+.news .newsgrid .newslist .newtitle {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  width: 70%;
+  margin-left: 5%;
+}
+
+.news .newsgrid .newslist .newdate {
+  position: relative;
+  display: inline-block;
+  margin-left: 15%;
+  padding-inline: 3%;
+  padding-block: 1%;
+  font-size: 10px;
+  color: white;
+}
+
+.news .newsgrid .newslist .newcomments {
+  position: relative;
+  display: inline-block;
+  padding-inline: 3%;
+  padding-block: 1%;
+  font-size: 10px;
+}
+
+.news .newsgrid .newslist .newdate, .news .newsgrid .newslist .newcomments {
+  margin-top: 2%;
+  margin-bottom: 3.5%;
+}
+
+.news .newsgrid .newslist .newdesc {
+  position: relative;
+  display: inline-block;
+  margin-left: 15%;
+  width: 65%;
+  font-size: 14px;
+  line-height: 135%;
+  margin-bottom: 3%;
+}
+
 .news .newsgrid .newslist .readmore {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 15%;
   color: #f3bc32;
   -webkit-transition: 0.35s;
   transition: 0.35s;

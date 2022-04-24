@@ -4,6 +4,7 @@ import new1thumb from "../assets/new1thumb.jpg";
 import new2thumb from "../assets/new2thumb.jpeg";
 import new3thumb from "../assets/new3thumb.png";
 import magglass from "../assets/magglass.png";
+import plusicon from "../assets/plusicon.png";
 
 export default function News() {
 
@@ -15,7 +16,12 @@ export default function News() {
                 <div className="newslist">
                     <div className="new1">
                         <a href="https://www.ysbryd.net/ysbryd-games-privacy-policy/">
-                            <img className="newthumb" src={new1thumb} alt="Game Screenshot"/>
+                            <div className="newthumb">
+                                <img className="imgthumb" src={new1thumb} alt="Game Screenshot"/>
+                                <div className="thumbselect">
+                                    <img className="imgselect" src={plusicon} alt="selection anim"/>
+                                </div>
+                            </div>
                         </a>
                         <div className="icon">
                             <img className="mag" src={magglass} alt="Magnifiying glass"/>
@@ -30,7 +36,12 @@ export default function News() {
                     </div>
                     <div className="new2">
                         <a href="https://www.ysbryd.net/518-2/">
-                            <img className="newthumb" src={new2thumb} alt="Texas Convention"/>
+                            <div className="newthumb">
+                                <img className="imgthumb" src={new2thumb} alt="Game Screenshot"/>
+                                <div className="thumbselect">
+                                    <img className="imgselect" src={plusicon} alt="selection anim"/>
+                                </div>
+                            </div>                        
                         </a>
                         <div className="icon">
                             <img className="mag" src={magglass} alt="Magnifiying glass"/>
@@ -44,7 +55,12 @@ export default function News() {
                     </div>
                     <div className="new3">
                         <a href="https://www.ysbryd.net/favorites-friday/">
-                            <img className="newthumb" src={new3thumb} alt="SL Train"/>
+                            <div className="newthumb">
+                                <img className="imgthumb" src={new3thumb} alt="Game Screenshot"/>
+                                <div className="thumbselect">
+                                    <img className="imgselect" src={plusicon} alt="selection anim"/>
+                                </div>
+                            </div>                        
                         </a>
                         <div className="icon">
                             <img className="mag" src={magglass} alt="Magnifiying glass"/>

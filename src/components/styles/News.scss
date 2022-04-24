@@ -54,7 +54,7 @@ $titlelabels-font: "Bebas Neue";
         margin: 0 auto;
         position: relative;
         margin-top: 0.1%;
-        padding-bottom: 2%;
+        padding-bottom: 3.5%;
         font-size: 23.5px;
         text-align: center;
         width: 58%;
@@ -62,7 +62,8 @@ $titlelabels-font: "Bebas Neue";
 
     .newsgrid {
 
-        position: relative;
+        position: flex;
+        flex-wrap: wrap;
         background-color: rgb(241, 241, 241);
         right: 0;
         top: 100%;
@@ -74,12 +75,11 @@ $titlelabels-font: "Bebas Neue";
         justify-content: center;
 
         .newslist {
-            background-color: rgba(0, 0, 0, 0.044);
+            //background-color: rgba(0, 0, 0, 0.044);
             width: 70%;
             height: 60%;
             margin: 0 auto;
             position: relative;
-            padding-bottom: 20%;
             justify-content: center;
             font-family: "Arial";
             
@@ -90,7 +90,7 @@ $titlelabels-font: "Bebas Neue";
                 display: inline-block;
                 width: 33.33%;
                 height: 50%;
-                background-color: rgba(234, 255, 0, 0.193);
+                //background-color: rgba(234, 255, 0, 0.193);
             }
 
             .new2 {
@@ -99,7 +99,7 @@ $titlelabels-font: "Bebas Neue";
                 display: inline-block;
                 width: 33.33%;
                 height: 50%;
-                background-color: rgba(0, 0, 255, 0.089);
+                //background-color: rgba(0, 0, 255, 0.089);
             }
 
             .new3 {
@@ -109,23 +109,64 @@ $titlelabels-font: "Bebas Neue";
                 display: inline-block;
                 width: 33.33%;
                 height: 50%;
-                background-color: rgba(255, 0, 0, 0.137);
+                //background-color: rgba(255, 0, 0, 0.137);
 
             }
 
             .newthumb {
+                position: relative;
                 background-color: rgb(243, 188, 50);
                 border: solid 6px white;
                 box-shadow: 0 0 3px #ccc;
-                width: 75%;
+                width: 85%;
+                overflow:hidden;
+                margin-bottom: 3.5%;
+            }
+
+            .imgthumb {
+                height: 100%;
+                width: 100%;
+                position: relative;
+                vertical-align: top;
                 transition: 0.4s;
             }
 
-            .newthumb:hover {
+            .newthumb:hover img {
+                
                 transform: scale(1.3);
                 transform-origin: 50% 50%;
 
+            }
 
+
+            .newthumb:hover .thumbselect{
+                visibility: visible;
+                background: rgba(243, 188, 50, 0.9);
+            }
+
+            .newthumb:hover .imgselect {
+                opacity: 1;
+            }
+
+            .thumbselect {
+                width: inherit;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                background: rgba(243, 188, 50, 0);
+                z-index: 2;
+                visibility: hidden;
+                transition: 0.4s;
+                bottom: 0%;
+            }
+
+            .imgselect {
+                width: 13%;
+                margin-left: 42%;
+                margin-top: 26%;
+                filter: invert(1);
+                transition: 0.4s;
+                opacity: 0;
             }
 
             .newdate {
@@ -137,13 +178,18 @@ $titlelabels-font: "Bebas Neue";
             }
 
             .icon {
-                width: 6%;
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                width: 5%;
                 background-color: rgb(231, 231, 231);
-                border: solid 20px rgb(231, 231, 231);
-                border-radius: 45%;
+                border: solid 10px rgb(231, 231, 231);
+                border-radius: 48%;
                 transition: 0.35s;
 
                 .mag {
+                    bottom: 0%;
+                    margin: 0 auto;
                     width: 100%;
                     transition: 0.35s;
                 }
@@ -157,7 +203,52 @@ $titlelabels-font: "Bebas Neue";
                 }
             }
 
+            .newtitle {
+                position: relative;
+                display: inline-block;
+                font-size: 20px;
+                width: 70%;
+                margin-left: 5%;
+            }
+
+            .newdate {
+                position: relative;
+                display: inline-block;
+                margin-left: 15%;
+                padding-inline: 3%;
+                padding-block: 1%;
+                font-size: 10px;
+                color: white;
+            }
+
+            .newcomments {
+                position: relative;
+                display: inline-block;
+                padding-inline: 3%;
+                padding-block: 1%;
+                font-size: 10px;
+            }
+
+            .newdate, .newcomments {
+                margin-top: 2%;
+                margin-bottom: 3.5%;
+            }
+
+            .newdesc {
+                position: relative;
+                display: inline-block;
+                margin-left: 15%;
+                width: 65%;
+                font-size: 14px;
+                line-height: 135%;
+                margin-bottom: 3%;
+            }
+
             .readmore {
+                position:relative;
+                display: inline-block;
+                font-size: 14px;
+                margin-left: 15%;
                 color: rgb(243, 188, 50);
                 transition: 0.35s;
                 text-decoration: none !important;

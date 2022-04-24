@@ -32,25 +32,25 @@ export default function Portfolio() {
             </div>
             <div className="gamegrid">
                 <div className="gamelist">
-                    <div className="vallhallathumb">VA-11 HALL-A
+                    <div className="vallhallathumb">
                         <img className="GameThumb" id="vallhalla" src={vallhallathumb} alt="VA-11 HALL-A"/>
                     </div>
-                    <div className="masqueradathumb">MASQUERADA: SONGS AND SHADOWS
+                    <div className="masqueradathumb">
                         <img className="GameThumb" id="masquerada" src={masqueradathumb} alt="MASQUERADA: SONGS AND SHADOWS"/>
                     </div>
-                    <div className="srcthumb">SHE REMEMBERED CATERPILLARS
+                    <div className="srcthumb">
                         <img className="GameThumb" id="src" src={SRCthumb} alt="SHE REMEMBERED CATERPILLARS"/>
                     </div>
-                    <div className="yiikthumb">YIIK: A POST MODERN RPG
+                    <div className="yiikthumb">
                         <img className="GameThumb" id="yiik" src={yiikthumb} alt="YIIK: A POST MODERN RPG"/>
                     </div>
-                    <div className="worldofhorrorthumb">WORLD OF HORROR
+                    <div className="worldofhorrorthumb">
                         <img className="GameThumb" id="WOH" src={WOHthumb} alt="WORLD OF HORROR"/>
                     </div>
-                    <div className="nirvannathumb">N1RV ANN-A
+                    <div className="nirvannathumb">
                         <img className="GameThumb" id="nirvanna" src={nirvannathumb} alt="N1RV ANN-A"/>
                     </div>
-                    <div className="noplacethumb">NO PLACE FOR BRAVERY
+                    <div className="noplacethumb">
                         <img className="GameThumb" id="noplaceforbravery" src={npfbthumb} alt="NO PLACE FOR BRAVERY"/>
                     </div>
                 </div>
