@@ -7,9 +7,11 @@ import npfbthumb from "../assets/npfbthumb.png";
 import SRCthumb from "../assets/SRCthumb.jpg";
 import WOHthumb from "../assets/WOHthumb.png";
 import yiikthumb from "../assets/yiikthumb.jpg";
+import ProjectDesc from "./ProjectDesc.jsx";
 
 
-export default function Portfolio() {
+
+export default function Portfolio(props) {
 
     const [clickedGame, setGame] = useState("");
     const [clickedPlatform, setPlatform] = useState("all");
@@ -42,6 +44,7 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <div className="TitleLabels" id="portfolioid">Portfolio</div>
             <div className="portfoliosubtitle">DISCOVER THESE WORLDS OF EMOTIVE EXPERIENCES</div>
+            <ProjectDesc/>
             <div className="platformgrid">
                 <ul className="platformlist">
                     <div className="listing">

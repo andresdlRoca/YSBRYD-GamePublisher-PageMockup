@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,8CAA8C;;;AAKvD,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,OAAkB;EACpC,KAAK,EAAE,CAAC;EACR,GAAG,EAAE,IAAI;EAET,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,EAAE;EACf,cAAc,EAAE,EAAE;EAClB,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "ProjectDesc.scss"
+    ],
+    "names": [],
+    "file": "ProjectDesc.css"
+}

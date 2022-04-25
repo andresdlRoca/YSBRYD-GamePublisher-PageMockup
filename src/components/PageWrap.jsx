@@ -16,7 +16,7 @@ export default function PageWrap() {
             <NavBar />
             <About />
             <WhatWeDo />
-            <Portfolio />
+            <Portfolio/>
             <WhyYsbryd />
             <News />
             <Contact />
