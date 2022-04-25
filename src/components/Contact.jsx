@@ -12,7 +12,7 @@ export default function Contact() {
     return (
         <div className="contact" id="contact">
             <p>WANT TO KNOW MORE ABOUT US?</p>
-            <div className="viewposts">View All Posts</div>
+            <div className="viewposts"><a href="https://www.ysbryd.net/blog/">View All Posts</a></div>
             <div className="TitleLabels">CONTACT US</div>
             <div className="subtitlecontact">FUN FACT: “YSBRYD” IS WELSH FOR <span>“SPIRIT”.</span></div>
             <div className="bottomlineis">

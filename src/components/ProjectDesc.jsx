@@ -50,9 +50,9 @@ export default function ProjectDesc() {
                 <div className="vallhalladesc">
                     <p>A cyberpunk bartending simulator unlike any you’ve seen before. (Not that there are that many.) In this world, corporations reign supreme and all human life is infected with nanomachines designed to oppress them… But, this is not about those people.</p>
                     <p>You are a bartender at the downtown watering hole of VA-11 HALL-A. Affectionately nicknamed “Valhalla,” it attracts the most fascinating people this side of dystopia. Drawing inspiration from the likes of Ghost in the Shell, Snatcher, and PC-98 adventure games, VA-11 HALL-A will make you laugh, cringe, and possibly regret serving too much alcohol to unsuspecting customers.</p>
-                    <p>Developer: <a href="http://sukeban.moe">Sukeban Games</a> (http://sukeban.moe)<br/>Platforms: PC/Mac/Linux, PS Vita<br/>Release Date: Available Now</p>
-                    <p>Project Details</p>
-                    <p><bold>Tags: </bold>Linux, Mac, PC, PS4, Switch</p>
+                    <p>Developer: <a href="http://sukeban.moe" id="developerlink">Sukeban Games</a> (http://sukeban.moe)<br/>Platforms: PC/Mac/Linux, PS Vita<br/>Release Date: Available Now</p>
+                    <p className="projectdesctitle">Project Details</p>
+                    <p><span id="bold">Tags: </span>Linux, Mac, PC, PS4, Switch</p>
                     <div className="viewproject"><a href="http://waifubartending.com">View Project</a></div>
                 </div>
             </div>

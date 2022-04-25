@@ -11,9 +11,75 @@
   height: 100%;
   width: 100%;
   padding-top: 1%;
-  padding-bottom: 3%;
+  padding-bottom: 3.5%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.project-wrap .carrouselwrap {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 62.5%;
+}
+
+.project-wrap .projectdescwrap {
+  position: relative;
+  width: 62.5%;
+  margin: 0 auto;
+  display: block;
+}
+
+.project-wrap .projectdescwrap .projectdesctitle {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#bold {
+  font-weight: bold;
+  color: black;
+}
+
+#developerlink {
+  text-decoration: none;
+  color: #f3bc32;
+}
+
+.viewproject {
+  margin-top: 2%;
+  position: relative;
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 12%;
+  font-family: "Arial";
+  background-color: #f3bc32;
+  color: #fbfbfb;
+  padding-block: 1.2%;
+  padding-inline: 0.6%;
+  border-radius: 3%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.viewproject a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=ProjectDesc.css.map */

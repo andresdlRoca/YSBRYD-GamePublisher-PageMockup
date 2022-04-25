@@ -50,6 +50,11 @@
   margin-bottom: 7%;
 }
 
+.contact .viewposts a {
+  text-decoration: none;
+  color: white;
+}
+
 .contact .TitleLabels {
   margin: 0 auto;
   display: block;

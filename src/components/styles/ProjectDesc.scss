@@ -14,6 +14,72 @@ $titlelabels-font: "Bebas Neue";
     height: 100%;
     width: 100%;
     padding-top: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 3.5%;
     justify-content: center;
+
+    .carrouselwrap {
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        width: 62.5%;
+    }
+
+    .projectdescwrap {
+        position: relative;
+        width: 62.5%;
+        margin: 0 auto;
+        display: block;
+
+        .projectdesctitle {
+            font-family: $titlelabels-font;
+            font-size: 20px;
+            margin-top: 3%;
+            margin-bottom: 1%;
+        }
+
+    }
+
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 150%;
+}
+
+#bold {
+    font-weight: bold;
+    color: black;
+}
+
+#developerlink {
+    text-decoration: none;
+    color: rgb(243, 188, 50);
+}
+
+.viewproject {
+    margin-top: 2%;
+    position: relative;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    justify-content: center;
+    width: 12%;
+    font-family: "Arial";
+    background-color: rgb(243, 188, 50);
+    color: rgb(251, 251, 251);
+    padding-block: 1.2%;
+    padding-inline: 0.6%;
+    border-radius: 3%;
+    text-align: center;
+    cursor: pointer;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
 }
