@@ -7,6 +7,7 @@ import WhyYsbryd from "./WhyYsbryd.jsx";
 import News from "./News.jsx";
 import Contact from "./Contact.jsx";
 import NavBar from "./NavBar.jsx";
+import Back2Top from "./Back2Top.jsx";
 
 export default function PageWrap() {
 
@@ -15,6 +16,7 @@ export default function PageWrap() {
             <Frontpage />
             <NavBar />
             <About />
+            <Back2Top/>
             <WhatWeDo />
             <Portfolio/>
             <WhyYsbryd />

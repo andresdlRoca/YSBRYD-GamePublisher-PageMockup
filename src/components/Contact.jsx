@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import './styles/Contact.css';
 import sitelogo from "../assets/logo-site.jpg"
+import email from "../assets/email.png";
+import facebook from "../assets/facebook.png";
+import twitter from "../assets/twitter.png";
 
 export default function Contact() {
 
@@ -21,6 +24,17 @@ export default function Contact() {
             </div>
             <div className="footer">
                 <img onClick={refreshPage} className="footerlogo" src={sitelogo} alt="Logo of website"/>
+                <div className="socials">
+                    <div className="email">
+                        <a href="hello@ysbryd.net"><img className="socialicon emailicon" src={email} alt="Email anim" /></a>
+                    </div>
+                    <div className="facebook">
+                        <a href="http://www.facebook.com/YsbrydGames"><img className="socialicon fbicon" src={facebook} alt="Facebook anim" /></a>
+                    </div>
+                    <div className="twitter">
+                        <a href="http://www.twitter.com/YsbrydGames/"><img className="socialicon twticon" src={twitter} alt="Twitter anim" /></a>
+                    </div>
+                </div>
                 <p>© Ysbryd Games Pte Ltd. 2014. All rights reserved.</p>
             </div>
 

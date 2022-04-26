@@ -44,7 +44,7 @@ export default function Portfolio(props) {
         <div className="portfolio" id="portfolio">
             <div className="TitleLabels" id="portfolioid">Portfolio</div>
             <div className="portfoliosubtitle">DISCOVER THESE WORLDS OF EMOTIVE EXPERIENCES</div>
-            <ProjectDesc/>
+            <ProjectDesc selectedgame = {clickedGame} changegame ={setGame}/>
             <div className="platformgrid">
                 <ul className="platformlist">
                     <div className="listing">

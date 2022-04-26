@@ -7,7 +7,7 @@ $sections-font: "Bebas Neue";
 
 .navbar {
     position:sticky;
-    top: 0px;
+    top: -1px;
     overflow:hidden;
     background-color: white;
     opacity: 0.95;
@@ -17,7 +17,7 @@ $sections-font: "Bebas Neue";
     -moz-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.075);
     -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.075);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.075);
-    z-index: 2;
+    z-index: 5;
 
     .logonavbar {
         float: left;
@@ -60,6 +60,12 @@ $sections-font: "Bebas Neue";
         }
 
         
+    }
+
+    .backtotop {
+        margin-top: 10%;
+        background-color: blue;
+        width: 10%;
     }
 
 }
