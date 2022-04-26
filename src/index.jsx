@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './components/styles/index.css'
-import PageWrap from './components/PageWrap.jsx';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./components/styles/index.css";
+import PageWrap from "./components/PageWrap";
 
 ReactDOM.render(
 
-    <PageWrap />
+  <PageWrap />,
 
-
-    , document.getElementById('app'));
+  // eslint-disable-next-line no-undef
+  document.getElementById("app"),
+);
