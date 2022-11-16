@@ -1,6 +1,6 @@
-# Proyecto1-STW-UVG
-YSBRYD GAMES Page Clone  
-#### Link de pagina original  
+# YSBRYD-GamePublisher-PageMockup
+YSBRYD GAMES Page Mockup
+#### Original page link:  
 https://www.ysbryd.net  
 # Tecnologias utilizadas  
 ## React   
