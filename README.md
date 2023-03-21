@@ -1,5 +1,5 @@
 # YSBRYD-GamePublisher-PageMockup
-Ysbryd Games Page Mockup  
+Company Portfolio Pages Mockup 
 #### Based on:
 https://www.ysbryd.net  
 Created with React, used as practice for the Frameworks/Modules listed below
